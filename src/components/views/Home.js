@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import Loading from '../Loading'
 
 function Home() {
   return (
@@ -14,12 +13,8 @@ function Home() {
         <li>
           <Link to="/movies">Movies</Link>
         </li>
-        <li>
-          <Link to="/detail/123">Detail</Link>
-        </li>
       </ul>
     </nav>
-    <Loading />
     </>
   )
 }
